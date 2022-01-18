@@ -1,6 +1,6 @@
 # skeleton-react-docker
 
-## To create a new Vue Project
+## To create a new React Project
 ```
 docker-compose run app npx create-react-app .
 ```
