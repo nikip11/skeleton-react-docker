@@ -1,8 +1,9 @@
 # skeleton-react-docker
 
-## To create a new React Project
+## To create a new React app
 ```
 docker-compose run app npx create-react-app .
+docker-compose run app npx create-react-app . --template typescript
 ```
 
 ## to start yarn start
