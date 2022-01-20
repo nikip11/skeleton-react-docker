@@ -6,8 +6,7 @@ services:
     container_name: app
     volumes:
       - ./app:/app
+    environment:
+      - PORT=3001
     ports:
-      - 3001:3000
-    working_dir: /app
-    command: yarn start
-
+      - 3001:3001
